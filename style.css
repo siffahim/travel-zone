@@ -1,0 +1,145 @@
+body{
+    margin:0;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    background:rgba(43, 40, 43, 0.781);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position:sticky;
+    top:0;
+}
+nav li{
+    list-style: none;
+    margin-left: 10px;
+}
+nav li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color:white;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+nav li a:hover{
+    background:#176bef;
+}
+.top-banner{
+    width: 100%;
+    height:550px;
+    background:linear-gradient(#000006c2,#000006c2), url('image/travle01.jpg');
+    background-repeat:  no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:#fff;
+}
+.linkbtn{
+    text-decoration: none;
+    padding: 10px 15px;
+    background:#176bef;
+    border-radius: 5px;
+    color:#fff;
+    margin-left: 52%;
+}
+.half-width a{
+    text-decoration: none;
+    padding: 10px 40px;
+    background:#176bef;
+    border-radius: 3px;
+    margin-top:30px;
+    display: inline-block;
+    color:#fff;
+    transition: all 0.5s;
+}
+.half-width a:hover{
+    background:black;
+    border:1px solid #fff;
+}
+hr{
+    width:150px;
+    height: 2px;
+    background-image: linear-gradient(135deg,blue,cyan);
+    border-radius: 5px;
+}
+.text_center{
+    text-align: center;
+    margin-top: 50px;
+}
+.middle{
+    display: flex;
+    margin-top:50px;
+    margin-bottom: 50px;
+    background-image: url('image/Frame 56.jpg');
+    background-repeat:  no-repeat;
+    background-size: cover;
+    padding:3%;
+}
+.middle-width{
+    width: 50%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.middle-width img{
+    width: 100%;
+    height: 360px;
+    box-shadow: 0 0 5px rgb(0,0,0,0.5);
+}
+.middle-width a{
+    text-decoration: none;
+    padding: 10px 15px;
+    background:#176bef;
+    border-radius: 5px;
+    color:#fff;
+    margin-top: 25px;
+    display: inline-block;
+    transition: 0.5s;
+
+}
+.middle-width a:hover{
+    background:black;
+    border:1px solid #fff;
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+.card img{
+    width: 250px;
+    height: 150px;
+}
+.card img:hover{
+    box-shadow: 0 0 10px rgb(0,0,0,0.8);
+}
+.margin-btm{
+    margin-bottom: 50px;
+}
+footer{
+    text-align: center;
+    background:black;
+    padding:1%;
+    color: #fff;
+}
+footer .icon{
+    display: flex;
+    justify-content: center;
+}
+.icon li{
+    list-style: none;
+    margin-left: 20px;
+}
+.icon li a{
+    font-size: 20px;
+    background:#176bef;
+    color:#fff;
+    padding:5px 6px;
+    border-radius: 5px;
+}
+.font-clr{
+    color:#2579ff;
+}
