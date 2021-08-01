@@ -1,5 +1,6 @@
 body{
     margin:0;
+    font-family: 'Courier New', Courier, monospace;
 }
 nav{
     width: 100%;
@@ -11,6 +12,9 @@ nav{
     align-items: center;
     position:sticky;
     top:0;
+}
+ul{
+    display: flex;
 }
 nav li{
     list-style: none;
@@ -33,6 +37,7 @@ nav li a:hover{
     background-repeat:  no-repeat;
     background-attachment:fixed;
     background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,7 +50,7 @@ nav li a:hover{
     background:#176bef;
     border-radius: 5px;
     color:#fff;
-    margin-left: 52%;
+    margin-left: 42%;
 }
 .half-width a{
     text-decoration: none;
@@ -121,7 +126,7 @@ hr{
 }
 footer{
     text-align: center;
-    background:black;
+    background:rgb(48, 47, 47);
     padding:1%;
     color: #fff;
 }
@@ -142,4 +147,41 @@ footer .icon{
 }
 .font-clr{
     color:#2579ff;
+}
+
+/*responsive for mobile */
+
+@media only screen and (max-width:688px){
+    *{
+        box-sizing: border-box;
+    }
+    ul{
+        display: none;
+    }
+    .top-banner{
+        width: 100%;
+        padding:5px;
+    }
+    .middle{
+        flex-direction:column;
+    }
+    .middle-width{
+        margin-bottom:50px ;
+        width: 100%;
+        padding-left: 0%;
+    }
+    .linkbtn{
+        margin-left: 70%;
+    }
+    .text_center{
+        width: 90%;
+        margin:0 auto;
+    }
+    .card{
+        flex-direction:column;
+        text-align: center;
+    }
+    footer{
+        width: 100%;
+    }
 }
